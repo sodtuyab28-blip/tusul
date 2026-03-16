@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Давсны хэрэглээ</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html{
+scroll-behavior:smooth;
+}
+
+.fade{
+opacity:0;
+transform:translateY(40px);
+transition:1s;
+}
+
+.fade.show{
+opacity:1;
+transform:translateY(0);
+}
+</style>
+
+</head>
+
+<body class="bg-gray-100">
+
+<!-- NAVBAR -->
+
+<nav class="bg-white shadow fixed w-full z-10">
+<div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+
+<h1 class="text-xl font-bold text-blue-600">
+Salt Awareness
+</h1>
+
+<div class="space-x-6">
+<a href="#about" class="hover:text-blue-500">Тухай</a>
+<a href="#effects" class="hover:text-blue-500">Нөлөө</a>
+<a href="#stats" class="hover:text-blue-500">Статистик</a>
+<a href="#tips" class="hover:text-blue-500">Зөвлөмж</a>
+</div>
+
+</div>
+</nav>
+
+
+<!-- HERO -->
+
+<section class="h-screen flex items-center justify-center text-center bg-cover bg-center"
+style="background-image:url('https://seasalt.com/bundles/saltworkstheme/saltworks/images/demo/homepage-gourmet-salt.jpg');">
+
+<div class="bg-black/50 p-10 rounded-xl text-white">
+
+<h1 class="text-4xl font-bold mb-4">
+Давсны хэрэглээгээ хянацгаая
+</h1>
+
+<p class="text-lg">
+Хэт их давс хэрэглэх нь эрүүл мэндэд ноцтой аюул учруулдаг
+</p>
+
+<a href="#about" class="mt-6 inline-block bg-blue-500 px-6 py-3 rounded-lg hover:bg-blue-600">
+Дэлгэрэнгүй
+</a>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="max-w-6xl mx-auto p-10 grid md:grid-cols-2 gap-10 fade">
+
+<img class="rounded-xl shadow"
+src="https://www.southernliving.com/thmb/EmvwuozrEjqzpPVRhY5PnLz1vuE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1348072128-8af35c603a394f1db3bfe59e37f5357c.jpg">
+
+<div>
+
+<h2 class="text-3xl font-bold mb-4">
+Давс гэж юу вэ?
+</h2>
+
+<p class="text-gray-700 mb-4">
+Давс нь хүний биед хэрэгтэй эрдэс бодис боловч хэт их хэрэглэвэл
+цусны даралт ихсэх, зүрх судасны өвчин үүсэх эрсдэл нэмэгддэг.
+</p>
+
+<p class="text-gray-700">
+Дэлхийн эрүүл мэндийн байгууллагын зөвлөмжөөр хүн өдөрт
+<strong>5 граммаас ихгүй</strong> давс хэрэглэх ёстой.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- EFFECTS -->
+
+<section id="effects" class="bg-white p-10 fade">
+
+<h2 class="text-3xl font-bold text-center mb-10">
+Хэт их давсны хор нөлөө
+</h2>
+
+<div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-6">
+
+<div class="bg-blue-100 p-6 rounded-xl text-center">
+<h3 class="font-bold text-lg">Цусны даралт</h3>
+<p class="text-sm mt-2">Даралт ихсэх эрсдэл нэмэгдэнэ</p>
+</div>
+
+<div class="bg-blue-100 p-6 rounded-xl text-center">
+<h3 class="font-bold text-lg">Зүрхний өвчин</h3>
+<p class="text-sm mt-2">Зүрх судасны өвчин үүсгэдэг</p>
+</div>
+
+<div class="bg-blue-100 p-6 rounded-xl text-center">
+<h3 class="font-bold text-lg">Бөөр</h3>
+<p class="text-sm mt-2">Бөөрний үйл ажиллагаа муудна</p>
+</div>
+
+<div class="bg-blue-100 p-6 rounded-xl text-center">
+<h3 class="font-bold text-lg">Харвалт</h3>
+<p class="text-sm mt-2">Тархинд харвах эрсдэл нэмэгдэнэ</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- STATS -->
+
+<section id="stats" class="p-10 max-w-6xl mx-auto fade">
+
+<h2 class="text-3xl font-bold text-center mb-10">
+Давсны хэрэглээний статистик
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8 text-center">
+
+<div class="bg-white p-8 rounded-xl shadow">
+<h1 class="text-4xl font-bold text-blue-600">11г</h1>
+<p class="mt-2">Монголчуудын дундаж өдөрт хэрэглэдэг давс</p>
+</div>
+
+<div class="bg-white p-8 rounded-xl shadow">
+<h1 class="text-4xl font-bold text-blue-600">5г</h1>
+<p class="mt-2">Зөвлөмжит хэмжээ</p>
+</div>
+
+<div class="bg-white p-8 rounded-xl shadow">
+<h1 class="text-4xl font-bold text-blue-600">2x</h1>
+<p class="mt-2">Зөвлөмжөөс 2 дахин их хэрэглэж байна</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- TIPS -->
+
+<section id="tips" class="bg-blue-50 p-10 fade">
+
+<h2 class="text-3xl font-bold text-center mb-10">
+Давсны хэрэглээг багасгах зөвлөмж
+</h2>
+
+<div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+
+<div class="bg-white p-6 rounded-xl shadow">
+<h3 class="font-bold mb-2">Бэлэн хоол багасгах</h3>
+<p>Түргэн болон лаазалсан хоолонд их давс байдаг.</p>
+</div>
+
+<div class="bg-white p-6 rounded-xl shadow">
+<h3 class="font-bold mb-2">Амтлагч ашиглах</h3>
+<p>Давсны оронд сармис, сонгино, халуун ногоо ашигла.</p>
+</div>
+
+<div class="bg-white p-6 rounded-xl shadow">
+<h3 class="font-bold mb-2">Шошгыг шалгах</h3>
+<p>Хүнсний бүтээгдэхүүний давсны хэмжээг уншиж хэвш.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="bg-gray-800 text-white text-center p-6">
+<p>© 2026 Давсны хэрэглээний талаарх мэдээллийн сайт</p>
+</footer>
+
+
+<!-- SCROLL ANIMATION -->
+
+<script>
+
+const observer = new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add("show");
+}
+});
+});
+
+document.querySelectorAll(".fade").forEach(el=>{
+observer.observe(el);
+});
+
+</script>
+
+</body>
+</html>
